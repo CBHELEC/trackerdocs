@@ -1,0 +1,21 @@
+input: .
+output: .retype
+
+url: docs.trackerbot.xyz # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Tracker
+  label: Docs
+
+links:
+  - text: Overview
+    link: https://docs.trackerbot.xyz/
+  - text: Dashboard
+    link: https://docs.trackerbot.xyz/using-the-dashboard/
+
+footer:
+  copyright: "&copy; Copyright Tracker {{ year }}. Not associated with Geocaching or Groundspeak Inc."
