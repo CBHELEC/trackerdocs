@@ -1,10 +1,22 @@
----
-description: >-
-  It was our goal to make the dashboard as intuitive and easy to use as
-  possible. We hope that you can quickly understand how to use
----
-
 # Using the Dashboard
+
+If you are following this in order, which is unlikely, you previously will have opened, and logged into the Dashboard. You are now ready to start configuring your server's settings, so let's do that now.
+
+To configure your server, follow these steps:
+
+{% stepper %}
+{% step %}
+### Select a Server
+
+You need to actually pick a server to configure, so look through the grid of servers until you find the one you want to configure. Then simply click (or press) on that server to open it. If Tracker is not in that server, it will appear greyed out with a <i class="fa-plus">:plus:</i> symbol next to it instead of a <i class="fa-chevron-right">:chevron-right:</i> symbol, and clicking on it opens a Tracker invite to that server. However, if it is in the server, it would have a <i class="fa-chevron-right">:chevron-right:</i> symbol and open to that server's specific configuration page.
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+{% endstepper %}
 
 {% tabs %}
 {% tab title="Logging In" %}
@@ -42,3 +54,5 @@ description: >-
 4. You have toggled a toggle!
 {% endtab %}
 {% endtabs %}
+
+Use the tabs in the above table to get instructions for the relevant section.&#x20;
