@@ -4,6 +4,10 @@ If you are following this in order, which is unlikely, you previously will have 
 
 To configure your server, follow these steps:
 
+{% hint style="warning" %}
+Once again, we recommend doing this on a Computer (PC or Laptop). The mobile UI is frankly cursed and we will fix it in due time.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ### Select a Server
@@ -12,47 +16,20 @@ You need to actually pick a server to configure, so look through the grid of ser
 {% endstep %}
 
 {% step %}
-###
+### Configure Skullboard
 
+Now you've selected a server, you can start to configure the various settings. The first of these you will see is skullboard. To find out more about skullboard, <a href="https://docs.trackerbot.xyz/features/skullboard" class="button secondary">click here</a>. To configure it, click the dropdown menu the show a list of the server's channels. Then simply click the channel you want skullboard to send to, and click 'Set Channel'. If you want to disable skullboard, click the '🚫 | Disable' option and click 'Set Channel'.
+{% endstep %}
 
+{% step %}
+### Configure Permission Roles
+
+Below skullboard, you can see a slightly larger dropdown box. This is how you can configure permission roles. To find out more about permission roles, <a href="https://docs.trackerbot.xyz/features/permroles" class="button secondary">click here</a>. Click on the dropdown box, and you see a list of roles in your server. From there, its easy - click on a role you want to give permissions for (see permissions <a href="https://docs.trackerbot.xyz/features/permroles" class="button secondary">here</a>), and then click 'Set Roles' to confirm that. To remove permission roles, click the cute lil' :icon-x: next to the role you want to remove, before clicking 'Set Roles' to confirm that.
+{% endstep %}
+
+{% step %}
+### Configure Feature Toggles
+
+Finally, after permission roles, there are a series of buttons. These toggle various features, more info on which can be found <a href="https://docs.trackerbot.xyz/features/toggles" class="button secondary">here</a>. For each feature which can be toggled, there are two buttons. ':icon-check: Enable' and ':icon-x: Disable'. It's simple enough as is, but to enable the feature you click ':icon-check: Enable' and to disable the feature you click ':icon-x: Disable'. These auto-save as you click them.
 {% endstep %}
 {% endstepper %}
-
-{% tabs %}
-{% tab title="Logging In" %}
-1. Go to the dashboard (https://dashboard.trackerbot.xyz)
-2. Click the 'Login' button and authorise via Discord
-3. You are logged in!
-{% endtab %}
-
-{% tab title="Selecting a Server" %}
-1. After logging in, find the server you would like to configure
-2. Click on it
-3. You have selected a server!
-{% endtab %}
-
-{% tab title="Skullboard" %}
-1. After selecting a server, find the dropdown under the text saying 'Choose a skullboard channel:'
-2. Click on the dropdown
-3. Select a channel where skullboarded messages will go, and click 'Set Channel'
-4. To disable skullboard, press the '🚫 | Disable' option, and click 'Set Channel'
-5. You have configured skullboard!
-{% endtab %}
-
-{% tab title="Permission Roles" %}
-1. After selecting a server, find the dropdown under the text saying 'Choose permission roles:'
-2. Click on the dropdown box
-3. Select as many roles as you want, and click 'Set Roles'
-4. To remove roles, simply click the 'x' next to the role you want to remove, and click 'Set Roles'
-5. You have configured permission roles!
-{% endtab %}
-
-{% tab title="Toggles" %}
-1. After selecting a server, find the buttons under the relevant feature text
-2. To enable that feature (default), click the 'Enable' button
-3. To disable that feature, click the 'Disable' button
-4. You have toggled a toggle!
-{% endtab %}
-{% endtabs %}
-
-Use the tabs in the above table to get instructions for the relevant section.&#x20;
