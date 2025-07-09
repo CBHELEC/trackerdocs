@@ -8,7 +8,7 @@ To configure your server, follow these steps:
 {% step %}
 ### Select a Server
 
-You need to actually pick a server to configure, so look through the grid of servers until you find the one you want to configure. Then simply click (or press) on that server to open it. If Tracker is not in that server, it will appear greyed out with a <i class="fa-plus">:plus:</i> symbol next to it instead of a <i class="fa-chevron-right">:chevron-right:</i> symbol, and clicking on it opens a Tracker invite to that server. However, if it is in the server, it would have a <i class="fa-chevron-right">:chevron-right:</i> symbol and open to that server's specific configuration page.
+You need to actually pick a server to configure, so look through the grid of servers until you find the one you want to configure. Then simply click (or press) on that server to open it. If Tracker is not in that server, it will appear greyed out with a :icon-plus: symbol next to it instead of a :icon-chevron-right: symbol, and clicking on it opens a Tracker invite to that server. However, if it is in the server, it would have a :icon-chevron-right: symbol and open to that server's specific configuration page.
 {% endstep %}
 
 {% step %}
