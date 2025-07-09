@@ -5,5 +5,5 @@
 
 ## Dashboard
 
-* [Accessing the Dashboard](dashboard/using-the-dashboard.md)
-* [Using the Dashboard](dashboard/using-the-dashboard-1.md)
+* [Accessing the Dashboard](dashboard/access.md)
+* [Using the Dashboard](dashboard/use.md)
