@@ -8,9 +8,9 @@ This documentation provides detailed guides and useful information about Tracker
 
 ### Documentation Structure
 
-* **Getting Started** - Installing the bot and bot permissions.
-* **Configuration** - Setting user permissions and configuring features.
-* **Features** - In depth explanations of each feature, what it does and how to use it.
+* [**Getting Started**](getting-started.md) - Installing the bot and bot permissions.
+* [**Configuration**](broken-reference) - Setting user permissions and configuring features.
+* [**Features**](broken-reference) - In depth explanations of each feature, what it does and how to use it.
 * **FAQ** - Frequently asked questions.
 * **Troubleshooting / Support** - Get support and ask more complex questions.
 
