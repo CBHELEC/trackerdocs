@@ -11,7 +11,7 @@ This documentation provides detailed guides and useful information about Tracker
 * [**Getting Started**](getting-started.md) - Installing the bot and bot permissions.
 * [**Configuration**](broken-reference) - Setting user permissions and configuring features.
 * [**Features**](broken-reference) - In depth explanations of each feature, what it does and how to use it.
-* **FAQ** - Frequently asked questions.
-* **Troubleshooting / Support** - Get support and ask more complex questions.
+* [**FAQ**](broken-reference) - Frequently asked questions.
+* [**Troubleshooting / Support**](broken-reference) - Get support and ask more complex questions.
 
 <sub>This documentation was made and is maintained by CBH (@not.cbh), Tracker's primary developer. Since I am human, I still make mistakes, so if you spot any please notify us in our</sub> [<sub>Support Server</sub>](https://discord.gg/cAXp5DSMr4)<sub>.</sub>
