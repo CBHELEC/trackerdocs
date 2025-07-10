@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.805415955338">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.805499742059">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Skullboard</title>
     <meta name="title" content="Skullboard">
+    <meta name="description" content="The skullboard module allows your server to highlight and remember those funny, out of context messages and moments which are the best.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.trackerbot.xyz/features/skullboard/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.trackerbot.xyz/features/skullboard/">
     <meta property="og:title" content="Skullboard">
+    <meta property="og:description" content="The skullboard module allows your server to highlight and remember those funny, out of context messages and moments which are the best.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.trackerbot.xyz/features/skullboard/">
     <meta property="twitter:title" content="Skullboard">
+    <meta property="twitter:description" content="The skullboard module allows your server to highlight and remember those funny, out of context messages and moments which are the best.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.805415955338" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.805499742059" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.805415955338" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.805499742059" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.805415955338" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.805499742059" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -171,6 +174,28 @@
         <doc-anchor-trigger class="header-anchor-trigger" to="#skullboard">#</doc-anchor-trigger>
         <span>Skullboard</span>
     </h1>
+</doc-anchor-target>
+<p>The skullboard module allows your server to highlight and remember those funny, out of context messages and moments which are the best.</p>
+<p>Skullboard is essentially a reskinned starboard, if you know what that is. If you don&#x27;t, it&#x27;s basically skullboard but the skull is a star and its meant to basically forward the good moments to a channel. Skullboard is just for when its stupid and out of context and you want to frame it.</p>
+<p>Skullboard is activated when any message in a channel Tracker has access to gets 3 reactions with a &#x27;<span class="docs-emoji">&#x1F480;</span>&#x27; emoji. It then, if configured, sends it to the skullboard channel.</p>
+<p>In summary, here&#x27;s how skullboard is triggered:</p>
+<doc-anchor-target id="send-a-message">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#send-a-message">#</doc-anchor-trigger>
+        <span>Send a message</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="3x--reactions-on-thus-message">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3x--reactions-on-thus-message">#</doc-anchor-trigger>
+        <span>3x <span class="docs-emoji">&#x1F480;</span> reactions on thus message</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="tracker-forwards-to-the-skullboard-channel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tracker-forwards-to-the-skullboard-channel">#</doc-anchor-trigger>
+        <span>Tracker forwards to the skullboard channel</span>
+    </h3>
 </doc-anchor-target>
 
                                 
