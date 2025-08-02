@@ -6,16 +6,13 @@
 ## Features
 
 * [Skullboard](features/skullboard.md)
-
-***
-
-* [Permission Roles](permroles.md)
-* [Feature Toggles](toggles.md)
-* [Code Recognition](code-recognition.md)
-* [Trackable Database](tbdb.md)
-* [Stat & Badge Bars](statbadgebars.md)
-* [Interact as the Bot](interact-as-bot.md)
-* [Fun Commands](fun.md)
+* [Permission Roles](features/permroles.md)
+* [Feature Toggles](features/toggles.md)
+* [Code Recognition](features/code-recognition.md)
+* [Trackable Database](features/tbdb.md)
+* [Stat & Badge Bars](features/statbadgebars.md)
+* [Interact as the Bot](features/interact-as-bot.md)
+* [Fun Commands](features/fun.md)
 
 ## Dashboard
 
